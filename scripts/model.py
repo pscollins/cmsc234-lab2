@@ -16,7 +16,7 @@ DB_DIR = "data"
 DB_NAME = "all_data.db"
 DB_PATH = pjoin(ROOT_DIR, DB_DIR, DB_NAME)
 
-VERBOSE = True
+VERBOSE = False
 
 DeclBase = declarative_base()
 

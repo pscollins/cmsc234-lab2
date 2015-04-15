@@ -3,7 +3,6 @@ import unittest
 from model import *
 
 class TestModel(unittest.TestCase):
-
     def make_query(self, like_str):
         return session.query(Data.value).filter(
             Data.probe.like("%{}".format(like_str))).first()[0]
